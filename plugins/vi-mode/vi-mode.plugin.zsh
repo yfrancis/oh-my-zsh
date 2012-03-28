@@ -18,6 +18,8 @@ zle -N zle-line-init
 zle -N zle-line-finish
 zle -N zle-keymap-select
 
+bindkey "jj" vi-cmd-mode
+
 bindkey -v
 
 # if mode indicator wasn't setup by theme, define default
